@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url(font/fontsfree-net-sfprodisplay-regular-webfont.woff) format('woff');
+}
+body {
+    background-image: url(../img/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -80px;
+}
+
+.container {
+    width: 100%;
+    height: 657px;
+    background-color: rgba(42, 38, 61, 0.82);
+    opacity: 0.9;
+    position: relative;
+}
+.back {
+    position: absolute;
+    top: 40px;
+    left: 60px;
+}
+.judul {
+    position: absolute;
+    top: 80px;
+    left: 570px;
+}
+
+.judul  h1 {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 84px;
+    text-align: center;
+    color: #FCB371;
+}
+
+.form {
+    width: 400px;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
+
+.form input {
+    width: 380px;
+    height: 46px;
+    font-size: 14px;
+    font-family: 'SF Pro Display';
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 16px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.form  .phone {
+    width: 177px;
+    height: 46px;
+    font-family: 'SF Pro Display';
+    margin-right: 8px;
+}
+.form select {
+    width: 189px;
+    height: 46px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: 'SF Pro Display';
+    padding: 12px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.form textarea {
+    width: 379px;
+    height: 116px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'SF Pro Display';
+    padding: 12px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.form button {
+    width: 380px;
+    height: 53px;
+    font-family: 'Pacifico';
+    background-color:  #FCB371;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 30px;
+    padding: 16px;
+    box-sizing: border-box;
+}
