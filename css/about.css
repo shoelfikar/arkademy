@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'SF Pro Display';
-    src: url(font/fontsfree-net-sfprodisplay-regular-webfont.woff) format('woff');
+    src: url(../font/fontsfree-net-sfprodisplay-regular-webfont.woff) format('woff');
 }
 body {
     background-image: url(../img/bg1.png);
